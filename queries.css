@@ -2,7 +2,7 @@
 
 @media (min-width: 64em) {
   html {
-    font-size: 90%;
+    font-size: 80%;
   }
 
   /* ---HEADER--- */
@@ -101,5 +101,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
+  }
+
+  .project {
+    max-width: 360px;
   }
 }
