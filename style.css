@@ -214,6 +214,7 @@ h2 {
 .project-heading {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+  font-weight: 500;
 }
 
 .project p {
