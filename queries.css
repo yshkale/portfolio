@@ -5,6 +5,11 @@
     font-size: 80%;
   }
 
+  .section-heading {
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+  }
+
   /* ---HEADER--- */
 
   .nav-list {
@@ -64,7 +69,7 @@
   .hero-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 2rem;
+    grid-row-gap: 4rem;
   }
 
   .hero-heading,
@@ -81,7 +86,7 @@
   }
 
   .hero-heading {
-    font-size: 8rem;
+    font-size: 12rem;
   }
 
   .hero-btn {
@@ -105,5 +110,11 @@
 
   .project {
     max-width: 360px;
+  }
+
+  /* SKILLS */
+
+  .skills-container {
+    gap: 40px;
   }
 }
